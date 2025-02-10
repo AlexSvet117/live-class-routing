@@ -1,9 +1,13 @@
-import Logo from './components/Logo';
+import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
     <>
-      <Logo />
+      <Home/>
+      <Profile/>
+      <AboutUs/>
     </>
   );
 }
