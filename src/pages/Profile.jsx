@@ -10,8 +10,8 @@ function Profile() {
 
   return (
     <div className="">
-    <Navbar/>
-    <div className ="col-10 col-lg-8">
+    <div className="d-flex flex-column align-items-center">
+    <div className ="col-6 col-lg-5">
       <h2 className = "text-center mt-5">Profile Page</h2>
       <div className = "card">
         <img className="card-img-top" src={person.image} alt="image" />
@@ -22,6 +22,9 @@ function Profile() {
       </div>
     </div>
     </div>
+    
+    </div>
+
   )
 }
 

@@ -10,8 +10,16 @@ import Home from './pages/Home.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import Profile from './pages/Profile.jsx';
+import RootLayout from './layout/RootLayout.jsx';
 
 const router = createBrowserRouter([
+
+  {
+    path: '/',
+    element: <RootLayout/>,
+    errorElement: <ErrorPage/>,
+    children: [
+
   {
     path: '/',
     element: <Home/>,
@@ -26,9 +34,9 @@ const router = createBrowserRouter([
     element: <AboutUs/>
   },
   {
-    path: '/profile/:profileId',
+    path: '/profile/:personID',
     element: <Profile/>
-  }
+  }]}
 ])
 
 createRoot(document.getElementById('root')).render(

@@ -4,14 +4,14 @@ export const people = [
         name: "John Doe",
         age: 25,
         bio: "Software eng",
-        image: "https://i.pravatar.cc/150?img=3"
+        image: "https://i.pravatar.cc/150?img=1"
     },
     {
         id: 2,
         name: "Bob Doe",
         age: 55,
         bio: "Software eng",
-        image: "https://i.pravatar.cc/150?img=4"
+        image: "https://i.pravatar.cc/150?img=9"
     },
     {
         id: 3,
